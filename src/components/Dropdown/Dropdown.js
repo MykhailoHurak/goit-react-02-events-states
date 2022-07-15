@@ -23,8 +23,8 @@ class Dropdown extends React.Component {
     render() {
         return (
             <div className={css.dropdown}>
-                <h2 className={css.title}>Dropdown</h2>
-                <div className={css.dropdown_button_box}>
+                <h2 className={css.dropdown_title}>Dropdown</h2>
+                <div className={css.dropdown_buttonBox}>
                     <button
                         className={css.dropdown_button}
                         type='button'
